@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Pelepay WP Plugin
+Plugin Name: Pelepay standalone embedder
 Plugin URI:
-Description: Pelepay WP Plugin
+Description: Pelepay standalone embedder
 Version: 1.0
 Author: EOI - Web Like This!
 Author URI: http://eoi.co.il/
