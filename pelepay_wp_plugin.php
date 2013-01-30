@@ -252,9 +252,9 @@ function pelepay_display_price_button($post_pelepay_price='',$post_pelepay_butto
 							  <INPUT TYPE="hidden" value="'.$post_id.'" NAME="orderid">
 							  <INPUT TYPE="hidden" value="'.$post_pelepay_button_name.'" NAME="description">
 							  
-							  <INPUT TYPE="hidden" value="'.$pelepay_cancel_url.'&pelepay_sts=cancel" NAME="cancel_return">
-							  <INPUT TYPE="hidden" value="'.$pelepay_failure_url.'&pelepay_sts=fail" NAME="fail_return">
-							  <INPUT TYPE="hidden" value="'.$pelepay_success_url.'&pelepay_sts=success" NAME="success_return">
+							  <INPUT TYPE="hidden" value="'.$pelepay_cancel_url.'" NAME="cancel_return">
+							  <INPUT TYPE="hidden" value="'.$pelepay_failure_url.'" NAME="fail_return">
+							  <INPUT TYPE="hidden" value="'.$pelepay_success_url.'" NAME="success_return">
 							  
 							  <input type="image" src="'.$pelepay_button_url.'" name="submit" alt="Make payments with pelepay">
 							</form>';
